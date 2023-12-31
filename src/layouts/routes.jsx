@@ -15,7 +15,7 @@ import ProtectedRoute from "../components/web/protectedRoute/ProtectedRoute.jsx"
 import Profile from "../components/web/profile/Profile.jsx";
 import UserInfo from "../components/web/profile/UserInfo.jsx";
 import UserContact from "../components/web/profile/UserContact.jsx";
-import SendCode from "../components/web/sendcode/SendCode.jsx";
+import SendCode from "../components/web/sendCode/SendCode.jsx";
 import ForgotPassword from "../components/web/forgotpassword/ForgotPassword.jsx";
 
 
