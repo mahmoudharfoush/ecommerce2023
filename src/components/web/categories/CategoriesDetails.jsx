@@ -9,7 +9,9 @@ const {categoryId} =useParams();
 
 const getCategoryDetails = async ()=>{
     const {data} = await axios.get(`${import.meta.env.VITE_API_URL}/products/category/${categoryId}`);
+
     return data.products;
+    
 }
 const {data,isLoading} = useQuery('category_details', getCategoryDetails);
 if(isLoading){
@@ -28,5 +30,6 @@ if(isLoading){
     </div>
   )
 }
+
 
 export default CategoriesDetails

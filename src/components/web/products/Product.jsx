@@ -26,7 +26,7 @@ if(isLoading){
     <div className="contanier">
     <div className="row">
         <div className='col-lg-4'>
-   
+        <img src={data.mainImage.secure_url} />
         </div>
          
         <div className='col-lg-8'>
